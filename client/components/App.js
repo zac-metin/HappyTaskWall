@@ -3,7 +3,7 @@ import Board from './Board'
 
 const App = () => (
   <div className='app-container'>
-  hello
+  
     <Board/>
   </div>
 )

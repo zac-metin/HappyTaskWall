@@ -1,6 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import Task from './Task'
+import * as api from '../api'
 
 
 const Board = (props) => (
