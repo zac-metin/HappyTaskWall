@@ -1,12 +1,11 @@
-import React, {PropTypes} from 'react'
+import React from 'react'
 
 const Task = (props) => (
+<div>
   <div>{props.taskname}</div>
-  <div>{props.}
+  <div>{props.id} </div>
+  </div>
 )
 
-Post.propTypes = {
-  title: PropTypes.string.isRequired
-}
 
-export default Post
+export default Task
