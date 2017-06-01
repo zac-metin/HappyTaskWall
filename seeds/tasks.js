@@ -11,4 +11,4 @@ exports.seed = function(knex, Promise) {
         {id: 4, taskName: 'CSS', description: 'apply CSS to our project', user_id: 4, completionStatus: 0}
       ]);
     });
-};
+ };
