@@ -5,7 +5,8 @@
   "main": "server/index",
   "scripts": {
     "start": "nodemon --watch server server/index & webpack --watch",
-    "eslint": "eslint src"
+    "eslint": "eslint src",
+     "test": "ava -v 'test/**/*.test.js'"
   },
   "keywords": [
     "react",
